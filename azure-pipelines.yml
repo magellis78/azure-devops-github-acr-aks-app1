@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '7333dabf-964d-42c1-8c82-db22489162d3'
-  imageRepository: 'magellisazuredevopsgithubacraksapp'
+  imageRepository: 'app1/magellisazuredevopsgithubacraksapp'
   containerRegistry: 'magdelacr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/DockerFile'
   tag: '$(Build.BuildId)'
